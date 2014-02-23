@@ -1,6 +1,7 @@
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 $black: rgb(32, 32, 32);
 $tan: rgb(245, 245, 245);
+$sand: rgb(238, 242, 234);
 
 @import 'sass-bootstrap/lib/bootstrap';
 
@@ -16,7 +17,7 @@ $tan: rgb(245, 245, 245);
 /* Space out content a bit */
 body {
     padding-bottom: 20px;
-    background-color: $tan;
+    
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -63,6 +64,7 @@ body {
 
 }
 
+
 /* Custom page footer */
 .footer {
     padding-top: 19px;
@@ -88,15 +90,64 @@ overflow: hidden;
 width: 980px;
 }
 
+.banner {
+    z-index: 1;
+    margin: 0 auto;
+    height: 88px;
+    position: relative;
+    box-shadow: 0 5px 5px -4px gray;
+
+    .banner-text {
+        margin: 0 auto;
+        background: #fff;
+        text-align: center;
+        color: black;
+        font-size: 36px;
+        position: relative;
+        line-height: 70px;
+    }
+}
+
 /* Main marketing message and sign up button */
 .jumbotron {
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
-    height: 400px;
+    background-color: $sand;
     .btn {
         font-size: 21px;
         padding: 14px 24px;
     }
+
+    .sidebar {
+        height: 300px;
+        background-color: rgb(39, 40, 34);
+        color: $tan;
+        font-size: 15px;
+
+    }
+
+    .project-pic {
+        height: 125px;
+        width: 125px;
+        border-radius: 100%;
+    }
+
+    .main {
+        outline: 1px solid blue;
+    }
+
+  .main-left {
+    width: 620px;
+    height: 532px;
+    outline: 1px solid yellow;
+  }
+
+  .left-content {
+    width: 100%;
+    height: 100%;
+    background: url("images/chart.png");
+  }
+
 }
 
 /* Supporting marketing content */
