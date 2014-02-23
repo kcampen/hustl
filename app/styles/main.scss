@@ -93,7 +93,7 @@ width: 980px;
 .banner {
     z-index: 1;
     margin: 0 auto;
-    height: 88px;
+    height: 50px;
     position: relative;
     box-shadow: 0 5px 5px -4px gray;
 
@@ -102,9 +102,9 @@ width: 980px;
         background: #fff;
         text-align: center;
         color: black;
-        font-size: 36px;
+        font-size: 28px;
         position: relative;
-        line-height: 70px;
+        line-height: 25px;
     }
 }
 
@@ -145,7 +145,23 @@ width: 980px;
     width: 100%;
     height: 100%;
     margin: 0 auto;
-  }
+  
+
+    .graybox {
+        position: relative;
+        display: inline-block;
+        background: rgb(208, 205, 199);
+        width: 450px;
+        height: 70px;
+        z-index: 5;
+        margin: 0 auto;
+        bottom: 2px;
+    }
+    
+      .content {
+        font-size: 15px;
+      }
+}
 
   .right-content {
     display: inline-block;
@@ -227,7 +243,7 @@ width: 980px;
     }
 
     .line {
-        margin-top: 127px;
+        margin-top: 190px;
         width: 265px;
         height: 0px;
         border-top: solid 1px rgb(177, 177, 177);
